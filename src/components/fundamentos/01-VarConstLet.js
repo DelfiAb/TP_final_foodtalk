@@ -2,6 +2,19 @@ import React from 'react'
 import { BtnPrimary } from '../BtnPrimary'
 
 export const VarConstLet = () => {
+    /*
+    const nombre = "Juan";
+    let edad = 25;
+
+
+
+    console.log(nombre);
+    console.log(edad);
+
+    edad = 26
+
+    console.log(edad + " " + nombre)
+    */
 
     return (
         <>

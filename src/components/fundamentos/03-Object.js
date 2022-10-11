@@ -1,8 +1,34 @@
+import { computeHeadingLevel } from '@testing-library/react';
 import React from 'react'
 import { BtnPrimary } from '../BtnPrimary'
 
 export const ObjetosLiterales = () => {
+/*
+    const persona = {
+        nombre: "Juan",
+        apellido: "Perez",
+        edad: 25,
+        direccion: {
+            ciudad: "Buenos Aires",
+            calle: "calle 123",
+            zip: 12344,
+        }
+    }
 
+    console.log(persona);
+
+    /*reescribir una variable de adentro de persona
+    persona.edad = 27
+
+    console.log(persona);
+
+    /*creo una nueva persona (2) con las propiedades q tiene la primer persona y se las copia -> se usan 3 puntitos
+    const persona2 = { ...persona }
+    persona2.nombre = "Pedro"
+
+    console.log(persona2);
+    console.log(persona);
+*/
 
     return (
         <>

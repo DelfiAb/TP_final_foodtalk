@@ -5,11 +5,19 @@ import './App.css'
 import { JsFunction } from "./components/fundamentos/05-JsFunction";
 import { ObjetosLiterales } from "./components/fundamentos/03-Object";
 import { JsArray } from "./components/fundamentos/04-Array";
-
+import {NavBar} from './components/NavBarPP/navbar';
+import {Footer} from './components/Footer/Footer.js';
 
 function App() {
 
   return (
+    <>
+      <NavBar />
+      <Footer />
+    </>
+    
+    
+    /*
     <>
       <VarConstLet />
       <TemplateString />
@@ -17,8 +25,9 @@ function App() {
       <JsArray />
       <JsFunction />
       
-    </>
-  );
+    </> */
+  ); 
+
 }
 
 export default App;

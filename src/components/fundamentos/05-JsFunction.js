@@ -2,6 +2,18 @@ import React from 'react'
 import { BtnPrimary } from '../BtnPrimary';
 
 export const JsFunction = () => {
+/*
+  function funcionUno ( valor ) {
+    return valor * valor
+  }  //el uso de las funciones asi no es recomendable xq son funciones "anonimas" y no se pueden reutilizar
+
+  console.log(funcionUno(2))
+
+  const saludar = function (nombre) {
+    console.log("hola " + nombre)
+  } 
+  
+  saludar("Juan")
 
 
   return (
@@ -27,5 +39,6 @@ export const JsFunction = () => {
         />
     <hr/>
     </>
-  )
+  ) */
 }
+

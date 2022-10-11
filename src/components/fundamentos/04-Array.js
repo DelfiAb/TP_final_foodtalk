@@ -2,6 +2,50 @@ import React from 'react'
 import { BtnPrimary } from '../BtnPrimary'
 
 export const JsArray = () => {
+    /*
+    const numbers = [1, 2, 3, 4]
+    const frutas = ['manzana', 'pera', 'uva', 'sandia']
+
+    console.log(numbers);
+    console.log(frutas);
+
+    frutas.pop() //elimina el ultimo elemento del array
+    frutas.push('melon') //agrega un elemento al final del array
+
+    console.log(frutas);
+
+   /*
+    frutas.shift() //elimina el primer elemento del array
+    frutas.unshift('fresa') //agrega un elemento al inicio del array
+
+    console.log(frutas);
+
+    frutas.splice(1, 0, 'naranja') //agrega un elemento en la posicion indicada
+    frutas.splice(1, 1) //elimina un elemento en la posicion indicada
+    console.log(frutas);
+
+    const frutas2 = frutas.slice(1, 3) //copia un rango de elementos del array
+    console.log(frutas2); 
+    /
+
+    const jsArray = []
+        jsArray.push(1)
+        jsArray.push(2)
+        jsArray.push(3)
+        jsArray.push(4)
+
+    console.log(jsArray)
+
+    const jsArray3= jsArray.map(
+        function (elemento) {
+            return elemento *2
+        }
+    ) //map recorre el array y devuelve un nuevo array con los elementos modificados
+
+    console.log(jsArray3)  
+    
+    
+
 
     
   return (
@@ -32,5 +76,5 @@ export const JsArray = () => {
           />
           <hr />
       </>
-  )
+  ) */
 }

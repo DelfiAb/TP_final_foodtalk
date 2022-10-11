@@ -2,8 +2,13 @@ import React from 'react'
 import { BtnPrimary } from '../BtnPrimary'
 
 export const TemplateString = () => {
-
-
+    /*
+    const nombre = "Juan";
+    const apellido = "Perez";
+    
+    console.log(`hola ${nombre} ${apellido}`);
+    */
+   
     return (
         <>
             <h2>TemplateString</h2>
