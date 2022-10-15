@@ -1,0 +1,35 @@
+#nav{
+    display: flex;
+    margin: 100%;
+    margin: 0 auto;
+    width: 100%;
+}
+.navbar{
+    background-color: var(--primary);
+    border-radius: 15px;
+    box-sizing: content-box;
+    margin: 0 auto;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+nav ul{
+    display: flex;
+    padding: 0 .5em;
+    
+}
+
+nav li{
+    margin-left: 20px;
+    list-style: none;
+    padding: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--font_color);
+}
+
+nav a:hover{
+    color: brown;
+}
